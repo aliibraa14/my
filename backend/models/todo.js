@@ -4,7 +4,7 @@ const { Schema, model } = require("mongoose");
 
 const todoSchema = new Schema({
     title:  String,
-    itCompleted: String,
+    itCompleted: String
     
 });
 
